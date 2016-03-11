@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59F622251C92F00900DC9954 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F622241C92F00900DC9954 /* CollectionViewCell.m */; };
 		9B0926F1171FCB4500339253 /* CustomCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0926F0171FCB4500339253 /* CustomCell1.m */; };
 		9B7A9866171E9E8F00393562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A9865171E9E8F00393562 /* UIKit.framework */; };
 		9B7A9868171E9E8F00393562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A9867171E9E8F00393562 /* Foundation.framework */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59F622231C92F00900DC9954 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		59F622241C92F00900DC9954 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		9B0926EF171FCB4500339253 /* CustomCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell1.h; sourceTree = "<group>"; };
 		9B0926F0171FCB4500339253 /* CustomCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell1.m; sourceTree = "<group>"; };
 		9B7A9862171E9E8F00393562 /* Animated Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +104,8 @@
 				9B7A987D171E9E8F00393562 /* ViewController.h */,
 				9B7A987E171E9E8F00393562 /* ViewController.m */,
 				9B0926EF171FCB4500339253 /* CustomCell1.h */,
+				59F622231C92F00900DC9954 /* CollectionViewCell.h */,
+				59F622241C92F00900DC9954 /* CollectionViewCell.m */,
 				9B0926F0171FCB4500339253 /* CustomCell1.m */,
 				9BC4679B171F938F0056FDA8 /* AnimatedTableCell.h */,
 				9BC4679C171F938F0056FDA8 /* AnimatedTableCell.m */,
@@ -197,6 +202,7 @@
 				9B7A987F171E9E8F00393562 /* ViewController.m in Sources */,
 				9BC4679D171F938F0056FDA8 /* AnimatedTableCell.m in Sources */,
 				9BC467A1171F998D0056FDA8 /* UIView+Positioning.m in Sources */,
+				59F622251C92F00900DC9954 /* CollectionViewCell.m in Sources */,
 				9B0926F1171FCB4500339253 /* CustomCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
